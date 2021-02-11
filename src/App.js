@@ -14,9 +14,7 @@ function App() {
   return (
     <Router> 
       <Header />
-      <Switch>
-       <Route exact path = "/" component={Landing}/>
-      </Switch>
+      <Landing />
       <Footer />
    </Router>
   );
